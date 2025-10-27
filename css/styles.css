@@ -25,9 +25,10 @@ a[href="./index.html"] {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+    text-transform: uppercase;
 }
 
-/* NAVIGATION LINKS */
+/* NAVIGATION */
 ul li a {
     font-weight: 500;
     font-size: 16px;
@@ -66,7 +67,7 @@ h3 {
     line-height: 1.2;
 }
 
-/* PARAGRAPHS */
+/* TEXT */
 p {
     font-size: 16px;
     line-height: 1.5;
