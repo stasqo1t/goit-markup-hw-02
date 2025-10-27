@@ -1,19 +1,21 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
 }
 
-/*header*/
+/* HEADER */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -24,7 +26,7 @@ a {
     color: #4d5ae5;
 }
 
-.header-logo .logo-part {
+.logo-part {
     color: #2e2f42;
 }
 
@@ -54,9 +56,11 @@ a {
     color: #434455;
 }
 
-/*hero*/
+/* HERO */
 .hero {
     background-color: #2e2f42;
+    text-align: center;
+    padding: 188px 0;
 }
 
 .hero-heading {
@@ -64,17 +68,20 @@ a {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
+    color: #ffffff;
+    margin-bottom: 48px;
 }
 
 .hero-button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
-    background-color: #4D5AE5;
+    background-color: #4d5ae5;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -82,7 +89,7 @@ a {
     background-color: #404bbf;
 }
 
-/*section 1*/
+/* SECTIONS */
 .section-first-heading {
     font-weight: 500;
     font-size: 20px;
@@ -93,47 +100,17 @@ a {
 }
 
 .section-first-paragraph {
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
-/*section 2*/
 .section-second {
     background-color: #f4f4fd;
 }
 
-.section-second-heading {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-.section-second-item {
-    background-color: #fff;
-}
-
-.section-second-list-heading {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
-}
-
-.section-second-list-paragraph {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
-}
-
-/*section 3*/
+.section-second-heading,
 .section-third-heading {
     font-weight: 700;
     font-size: 36px;
@@ -144,10 +121,11 @@ a {
     text-transform: capitalize;
 }
 
-.section-third-list-item {
-    background-color: #fff;
+.section-second-item {
+    background-color: #ffffff;
 }
 
+.section-second-list-heading,
 .section-third-list-heading {
     font-weight: 500;
     font-size: 20px;
@@ -157,14 +135,18 @@ a {
     text-transform: capitalize;
 }
 
+.section-second-list-paragraph,
 .section-third-list-paragraph {
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
-/*footer*/
-footer {
+/* FOOTER */
+.footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-logo .logo-part {
@@ -172,27 +154,16 @@ footer {
 }
 
 .footer-paragraph {
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    width: 264px;
 }
 
-
-._checklist-dummy {
-    position: static;
-    width: auto;
-    height: auto;
-    left: auto;
-    top: auto;
-    box-sizing: content-box;
+/* IMAGE */
+img {
     display: block;
-    align-items: stretch;
-    padding: 0;
-    flex-direction: row;
-    gap: 0;
-    border-radius: 0;
-    box-shadow: none;
-    order: 0;
-    flex-grow: 0;
-    border-bottom: none;
+    width: 100%;
+    height: auto;
 }
