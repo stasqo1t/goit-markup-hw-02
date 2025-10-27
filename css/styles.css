@@ -161,6 +161,7 @@ a {
     width: 264px;
 }
 
+
 body {
     position: relative;
     width: 100%;
@@ -178,4 +179,10 @@ body {
     order: 0;
     flex-grow: 0;
     border-bottom: none;
+}
+
+.section-first-heading,
+.section-second-list-heading,
+.section-third-list-heading {
+    text-transform: capitalize;
 }
